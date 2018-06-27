@@ -1,0 +1,33 @@
+	/* <link href="./css/mirrormark.package.css" rel="stylesheet" /> */
+
+	/* <!-- Our demo CSS --> */
+	/* <link href="./css/demo.css" rel="stylesheet" /> */
+
+/* @import './css/mirrormark.package.css'; */
+/* @import './css/demo.css'; */
+
+@import 'codemirror/lib/codemirror.css';
+
+body {
+  background: purple;
+}
+
+.cm-s-default {
+  font: normal 14px/1 "Monaco", "Courier New", monospace;
+}
+
+.cm-s-default .cm-header {
+  color: #000;
+}
+
+.cm-s-default .cm-header-1 {
+  font-size: 24px;
+}
+
+.cm-s-default .cm-header-2 {
+  font-size: 18px;
+}
+
+.cm-s-default .cm-header-3 {
+  font-size: 14px;
+}
